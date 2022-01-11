@@ -1,6 +1,6 @@
 __author__ = 'roycehaynes'
 
-from scrapy.dupefilter import BaseDupeFilter
+from scrapy.dupefilters import BaseDupeFilter
 
 import time
 import connection
