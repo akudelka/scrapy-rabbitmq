@@ -5,7 +5,7 @@ from scrapy.dupefilter import BaseDupeFilter
 import time
 import connection
 
-from scrapy.dupefilter import BaseDupeFilter
+from scrapy.dupefilters import BaseDupeFilter
 from scrapy.utils.request import request_fingerprint
 
 
